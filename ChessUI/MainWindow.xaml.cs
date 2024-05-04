@@ -20,9 +20,24 @@ namespace ChessUI
     /// </summary>
     public partial class MainWindow : Window
     {
+        private readonly Image[,] pieceImages = new Image[0, 0];
         public MainWindow()
         {
             InitializeComponent();
+            InitializeBoard();
+        }
+
+        private void InitializeBoard()
+        {
+            for (int row = 0; row < 9; row++)
+            {
+                for (int col = 0; col < 10; col++)
+                {
+                    Image image=new Image();
+                    pieceImages[row,col] = image;
+                    PieceGrid.Children.Add(image);
+                }
+            }
         }
     }
 }
