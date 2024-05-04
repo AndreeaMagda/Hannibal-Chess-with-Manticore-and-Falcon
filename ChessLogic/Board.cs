@@ -33,10 +33,10 @@ namespace ChessLogic
         {
             this[0, 0] = new Rook(Player.Black);
             this[0, 1]= new Knight(Player.Black);
-            this[0,2]= new Elephant(Player.Black); 
-            this[0,3]=new Bishop(Player.Black);
-            this[0,4]=new Queen(Player.Black);
-            this[0,5]=new King(Player.Black);
+            this[0, 2]= new Elephant(Player.Black); 
+            this[0, 3]=new Bishop(Player.Black);
+            this[0, 4]=new Queen(Player.Black);
+            this[0, 5]=new King(Player.Black);
             this[0, 6] = new Bishop(Player.Black);
             this[0,7]=new Elephant(Player.Black);
             this[0,8]=new Knight(Player.Black);
@@ -54,7 +54,7 @@ namespace ChessLogic
             this[8, 8] = new Knight(Player.White);
             this[8, 9] = new Rook(Player.White);
 
-            for (int i = 0; i < 8; i++)
+            for (int i = 0; i < 10; i++)
             {
                 this[1, i]=new Pawn(Player.Black);
                 this[7,i]=new Pawn(Player.White);
@@ -62,7 +62,7 @@ namespace ChessLogic
         }
         public static bool IsInSide(Position pos)
         {
-            return pos.Row>=0 &&pos.Row<10 && pos.Column>=0 && pos.Column<9;
+            return pos.Row>=0 &&pos.Row<9 && pos.Column>=0 && pos.Column<=10;
         }
 
         public  bool IsEmpty(Position pos)

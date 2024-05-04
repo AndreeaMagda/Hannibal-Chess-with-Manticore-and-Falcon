@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <None Remove="Assets\bbishop.png" />
-    <None Remove="Assets\belephantferz.png" />
+    <None Remove="Assets\belephant.png" />
     <None Remove="Assets\bking.png" />
     <None Remove="Assets\bknight.png" />
     <None Remove="Assets\bpawn.png" />
@@ -18,7 +18,7 @@
     <None Remove="Assets\chess_board.png" />
     <None Remove="Assets\icon.ico" />
     <None Remove="Assets\wbishop.png" />
-    <None Remove="Assets\welephantferz.png" />
+    <None Remove="Assets\welephant.png" />
     <None Remove="Assets\wking.png" />
     <None Remove="Assets\wknight.png" />
     <None Remove="Assets\wpawn.png" />
@@ -32,7 +32,7 @@
 
   <ItemGroup>
     <Resource Include="Assets\bbishop.png" />
-    <Resource Include="Assets\belephantferz.png" />
+    <Resource Include="Assets\belephant.png" />
     <Resource Include="Assets\bking.png" />
     <Resource Include="Assets\bknight.png" />
     <Resource Include="Assets\bpawn.png" />
@@ -41,7 +41,7 @@
     <Resource Include="Assets\chess_board.png" />
     <Resource Include="Assets\icon.ico" />
     <Resource Include="Assets\wbishop.png" />
-    <Resource Include="Assets\welephantferz.png" />
+    <Resource Include="Assets\welephant.png" />
     <Resource Include="Assets\wking.png" />
     <Resource Include="Assets\wknight.png" />
     <Resource Include="Assets\wpawn.png" />
