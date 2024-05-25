@@ -22,5 +22,30 @@ namespace ChessLogic
 
             return copy;
         }
+
+        public override IEnumerable<Move> GetMoves(Position from, Board board)
+        {
+            var moves = new List<Move>();
+
+        
+            var directions = new Direction[] { Direction.NorthEast, Direction.NorthWest, Direction.SouthEast, Direction.SouthWest };
+
+            foreach (var direction in directions)
+            {
+                var positions = MovePositionInDirection(from, board, direction).ToList();
+
+                if (positions.Count >= 1)
+                {
+                    moves.Add(new NormalMove(from, positions[0]));
+                }
+
+                if (positions.Count >= 2)
+                {
+                    moves.Add(new NormalMove(from, positions[1]));
+                }
+            }
+
+            return moves;
+        }
     }
 }

@@ -9,7 +9,7 @@ namespace ChessLogic
 {
     public class Board
     {
-        private readonly Piece[,] pieces = new Piece[9, 10];
+        private readonly Piece[,] pieces = new Piece[11, 10];
 
         public Piece this[int row, int col]
         {
@@ -31,38 +31,38 @@ namespace ChessLogic
 
         private void AddStartPieces()
         {
-            this[0, 0] = new Rook(Player.Black);
-            this[0, 1]= new Knight(Player.Black);
-            this[0, 2]= new Elephant(Player.Black); 
-            this[0, 3]=new Bishop(Player.Black);
-            this[0, 4]=new Queen(Player.Black);
-            this[0, 5]=new King(Player.Black);
-            this[0, 6] = new Bishop(Player.Black);
-            this[0,7]=new Elephant(Player.Black);
-            this[0,8]=new Knight(Player.Black);
-            this[0,9]=new Rook(Player.Black);
+            this[1, 0] = new Rook(Player.Black);
+            this[1, 1]= new Knight(Player.Black);
+            this[1, 2]= new Elephant(Player.Black); 
+            this[1, 3]=new Bishop(Player.Black);
+            this[1, 4]=new Queen(Player.Black);
+            this[1, 5]=new King(Player.Black);
+            this[1, 6] = new Bishop(Player.Black);
+            this[1, 7]=new Elephant(Player.Black);
+            this[1, 8]=new Knight(Player.Black);
+            this[1, 9]=new Rook(Player.Black);
 
 
-            this[8, 0] = new Rook(Player.White);
-            this[8, 1] = new Knight(Player.White);
-            this[8, 2] = new Elephant(Player.White);
-            this[8, 3] = new Bishop(Player.White);
-            this[8, 4] = new Queen(Player.White);
-            this[8, 5] = new King(Player.White);
-            this[8, 6] = new Bishop(Player.White);
-            this[8, 7] = new Elephant(Player.White);
-            this[8, 8] = new Knight(Player.White);
-            this[8, 9] = new Rook(Player.White);
+            this[9, 0] = new Rook(Player.White);
+            this[9, 1] = new Knight(Player.White);
+            this[9, 2] = new Elephant(Player.White);
+            this[9, 3] = new Bishop(Player.White);
+            this[9, 4] = new Queen(Player.White);
+            this[9, 5] = new King(Player.White);
+            this[9, 6] = new Bishop(Player.White);
+            this[9, 7] = new Elephant(Player.White);
+            this[9, 8] = new Knight(Player.White);
+            this[9, 9] = new Rook(Player.White);
 
             for (int i = 0; i < 10; i++)
             {
-                this[1, i]=new Pawn(Player.Black);
-                this[7,i]=new Pawn(Player.White);
+                this[2, i]=new Pawn(Player.Black);
+                this[8,i]=new Pawn(Player.White);
             }
         }
         public static bool IsInSide(Position pos)
         {
-            return pos.Row>=0 &&pos.Row<9 && pos.Column>=0 && pos.Column<=10;
+            return pos.Row>=0 &&pos.Row<=11 && pos.Column>=0 && pos.Column<=10;
         }
 
         public  bool IsEmpty(Position pos)

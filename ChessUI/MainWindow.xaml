@@ -17,7 +17,7 @@
                 <ImageBrush ImageSource="Assets/chess_board.png"></ImageBrush>
             </Grid.Background>
             <UniformGrid x:Name="PieceGrid"
-                         Rows="9"
+                         Rows="11"
                          Columns="10"
                          RenderOptions.BitmapScalingMode="HighQuality">
                

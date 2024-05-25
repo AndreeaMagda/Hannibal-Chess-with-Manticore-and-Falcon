@@ -21,7 +21,7 @@ namespace ChessUI
     /// </summary>
     public partial class MainWindow : Window
     {
-        private readonly Image[,] pieceImages = new Image[9, 10];
+        private readonly Image[,] pieceImages = new Image[11, 10];
 
         private GameState gameState;
         public MainWindow()
@@ -34,7 +34,7 @@ namespace ChessUI
 
         private void InitializeBoard()
         {
-            for (int row = 0; row < 9; row++)
+            for (int row = 0; row < 11; row++)
             {
                 for (int col = 0; col < 10; col++)
                 {
@@ -47,7 +47,7 @@ namespace ChessUI
 
         private void DrawBoard(Board board)
         {
-            for (int row = 0; row < 9; row++)
+            for (int row = 0; row < 11; row++)
             {
                 for (int col = 0; col < 10; col++)
                 {
