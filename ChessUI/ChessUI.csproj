@@ -16,6 +16,8 @@
     <None Remove="Assets\bqueen.png" />
     <None Remove="Assets\brook.png" />
     <None Remove="Assets\chess_board.png" />
+    <None Remove="Assets\cursorb.cur" />
+    <None Remove="Assets\cursorw.cur" />
     <None Remove="Assets\icon.ico" />
     <None Remove="Assets\wbishop.png" />
     <None Remove="Assets\welephant.png" />
@@ -39,6 +41,12 @@
     <Resource Include="Assets\bqueen.png" />
     <Resource Include="Assets\brook.png" />
     <Resource Include="Assets\chess_board.png" />
+    <Resource Include="Assets\cursorb.cur">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\cursorw.cur">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Assets\icon.ico" />
     <Resource Include="Assets\wbishop.png" />
     <Resource Include="Assets\welephant.png" />
