@@ -13,7 +13,7 @@ namespace ChessLogic
 
         public Piece this[int row, int col]
         {
-            get{ return pieces[row, col]; }
+            get { return pieces[row, col]; }
             set { pieces[row, col] = value;}
         }
         public Piece this[Position pos]
@@ -62,7 +62,7 @@ namespace ChessLogic
         }
         public static bool IsInSide(Position pos)
         {
-            return pos.Row>=0 &&pos.Row<=11 && pos.Column>=0 && pos.Column<=10;
+            return pos.Row>=0 &&pos.Row<11 && pos.Column>=0 && pos.Column<10;
         }
 
         public  bool IsEmpty(Position pos)
