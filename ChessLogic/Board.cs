@@ -69,5 +69,34 @@ namespace ChessLogic
         {
             return this[pos] == null;
         }
+
+        public IEnumerable<Position> PiecePositions()
+        {
+            for (int row = 0; row < 11; row++)
+            {
+                for (int col = 0; col < 10; col++)
+                {
+                    Position pos = new Position(row, col);
+                    if (!IsEmpty(pos))
+                    {
+                        yield return pos;
+                    }
+                }
+            }   
+        }
+
+        public IEnumerable<Position> PiecePositionsFor(Player player)
+        {
+            return PiecePositions().Where(pos => this[pos].Color == player);
+        }
+
+        public bool IsInCheck(Player player)
+        {
+            return PiecePositionsFor(player.Opponent()).Any(pos =>
+            {
+                Piece piece = this[pos];
+                return piece.CanCaptureOpponentKing(pos, this);
+            });
+        }
     }
 }
