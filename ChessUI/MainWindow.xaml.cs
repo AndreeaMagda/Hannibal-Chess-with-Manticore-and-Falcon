@@ -67,6 +67,11 @@ namespace ChessUI
 
         private void BoardGrid_MouseDown(object sender, MouseButtonEventArgs e)
         {
+            if(IsMenuOnScreen())
+            {
+                return;
+            }
+
             Point point =e.GetPosition(BoardGrid);
             Position pos = ToSquarePosition(point);
 
@@ -78,7 +83,6 @@ namespace ChessUI
             {
                 OnToPositionSelected(pos);
             }
-           
         }   
 
         private Position ToSquarePosition(Point point)
@@ -117,6 +121,11 @@ namespace ChessUI
             gameState.MakeMove(move);
             DrawBoard(gameState.Board);
             SetCursor(gameState.CurrentPlayer);
+
+            if (gameState.IsGameOver())
+            {
+                ShowGameOverMenu(gameState);
+            }
         }
 
         private void CacheMoves(IEnumerable<Move> moves)
@@ -158,6 +167,39 @@ namespace ChessUI
             {
                 Cursor = ChessCursors.BlackCursor;
             }
+        }
+
+        private bool IsMenuOnScreen()
+        {
+            return MenuContainer.Content != null;
+        }
+
+        private void ShowGameOverMenu(GameState gameState)
+        {
+            GameOverMenu gameOverMenu = new GameOverMenu(gameState);
+            MenuContainer.Content = gameOverMenu;
+
+            gameOverMenu.OptionSelected += (option) =>
+            {
+                if (option == Option.Restart)
+                {
+                    MenuContainer.Content = null;
+                    RestartGame();
+                }
+                else
+                {
+                    Application.Current.Shutdown();
+                }
+            };
+        }
+
+        private void RestartGame()
+        {
+            HideHighlights();
+            moveCache.Clear();
+            gameState = new GameState(Player.White, Board.Initial());
+            DrawBoard(gameState.Board);
+            SetCursor(gameState.CurrentPlayer);
         }
 
     }
