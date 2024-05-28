@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\facultate\\An3\\sem2\\Proiect AI\\Chess\\Chess\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{52B549C9-6A2D-4A59-8E41-C7ACC7CAD04A}|ChessUI\\ChessUI.csproj|d:\\facultate\\an3\\sem2\\proiect ai\\chess\\chess\\chessui\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{52B549C9-6A2D-4A59-8E41-C7ACC7CAD04A}|ChessUI\\ChessUI.csproj|solutionrelative:chessui\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{52B549C9-6A2D-4A59-8E41-C7ACC7CAD04A}|ChessUI\\ChessUI.csproj|d:\\facultate\\an3\\sem2\\proiect ai\\chess\\chess\\chessui\\promotionmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{52B549C9-6A2D-4A59-8E41-C7ACC7CAD04A}|ChessUI\\ChessUI.csproj|solutionrelative:chessui\\promotionmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -31,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{A89FABEE-1095-4509-8821-4C38F1E14BA9}|ChessLogic\\ChessLogic.csproj|solutionrelative:chesslogic\\moves\\pawnpromotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52B549C9-6A2D-4A59-8E41-C7ACC7CAD04A}|ChessUI\\ChessUI.csproj|d:\\facultate\\an3\\sem2\\proiect ai\\chess\\chess\\chessui\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{52B549C9-6A2D-4A59-8E41-C7ACC7CAD04A}|ChessUI\\ChessUI.csproj|solutionrelative:chessui\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{52B549C9-6A2D-4A59-8E41-C7ACC7CAD04A}|ChessUI\\ChessUI.csproj|d:\\facultate\\an3\\sem2\\proiect ai\\chess\\chess\\chessui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{52B549C9-6A2D-4A59-8E41-C7ACC7CAD04A}|ChessUI\\ChessUI.csproj|solutionrelative:chessui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -58,71 +58,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 255,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 10,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PromotionMenu.xaml.cs",
-              "DocumentMoniker": "D:\\facultate\\An3\\sem2\\Proiect AI\\Chess\\Chess\\ChessUI\\PromotionMenu.xaml.cs",
-              "RelativeDocumentMoniker": "ChessUI\\PromotionMenu.xaml.cs",
-              "ToolTip": "D:\\facultate\\An3\\sem2\\Proiect AI\\Chess\\Chess\\ChessUI\\PromotionMenu.xaml.cs*",
-              "RelativeToolTip": "ChessUI\\PromotionMenu.xaml.cs*",
-              "ViewState": "AQIAAAEAAAAAAAAAAADwvzgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T11:16:38.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\facultate\\An3\\sem2\\Proiect AI\\Chess\\Chess\\ChessUI\\App.xaml",
-              "RelativeDocumentMoniker": "ChessUI\\App.xaml",
-              "ToolTip": "D:\\facultate\\An3\\sem2\\Proiect AI\\Chess\\Chess\\ChessUI\\App.xaml",
-              "RelativeToolTip": "ChessUI\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-28T11:01:32.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PromotionMenu.xaml",
-              "DocumentMoniker": "D:\\facultate\\An3\\sem2\\Proiect AI\\Chess\\Chess\\ChessUI\\PromotionMenu.xaml",
-              "RelativeDocumentMoniker": "ChessUI\\PromotionMenu.xaml",
-              "ToolTip": "D:\\facultate\\An3\\sem2\\Proiect AI\\Chess\\Chess\\ChessUI\\PromotionMenu.xaml*",
-              "RelativeToolTip": "ChessUI\\PromotionMenu.xaml*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-28T10:47:57.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Queen.cs",
-              "DocumentMoniker": "D:\\facultate\\An3\\sem2\\Proiect AI\\Chess\\Chess\\ChessLogic\\Pieces\\Queen.cs",
-              "RelativeDocumentMoniker": "ChessLogic\\Pieces\\Queen.cs",
-              "ToolTip": "D:\\facultate\\An3\\sem2\\Proiect AI\\Chess\\Chess\\ChessLogic\\Pieces\\Queen.cs",
-              "RelativeToolTip": "ChessLogic\\Pieces\\Queen.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T09:57:33.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Piece.cs",
-              "DocumentMoniker": "D:\\facultate\\An3\\sem2\\Proiect AI\\Chess\\Chess\\ChessLogic\\Pieces\\Piece.cs",
-              "RelativeDocumentMoniker": "ChessLogic\\Pieces\\Piece.cs",
-              "ToolTip": "D:\\facultate\\An3\\sem2\\Proiect AI\\Chess\\Chess\\ChessLogic\\Pieces\\Piece.cs",
-              "RelativeToolTip": "ChessLogic\\Pieces\\Piece.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-28T09:57:26.897Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -137,7 +74,70 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PromotionMenu.xaml.cs",
+              "DocumentMoniker": "D:\\facultate\\An3\\sem2\\Proiect AI\\Chess\\Chess\\ChessUI\\PromotionMenu.xaml.cs",
+              "RelativeDocumentMoniker": "ChessUI\\PromotionMenu.xaml.cs",
+              "ToolTip": "D:\\facultate\\An3\\sem2\\Proiect AI\\Chess\\Chess\\ChessUI\\PromotionMenu.xaml.cs",
+              "RelativeToolTip": "ChessUI\\PromotionMenu.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T11:16:38.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\facultate\\An3\\sem2\\Proiect AI\\Chess\\Chess\\ChessUI\\App.xaml",
+              "RelativeDocumentMoniker": "ChessUI\\App.xaml",
+              "ToolTip": "D:\\facultate\\An3\\sem2\\Proiect AI\\Chess\\Chess\\ChessUI\\App.xaml",
+              "RelativeToolTip": "ChessUI\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-28T11:01:32.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PromotionMenu.xaml",
+              "DocumentMoniker": "D:\\facultate\\An3\\sem2\\Proiect AI\\Chess\\Chess\\ChessUI\\PromotionMenu.xaml",
+              "RelativeDocumentMoniker": "ChessUI\\PromotionMenu.xaml",
+              "ToolTip": "D:\\facultate\\An3\\sem2\\Proiect AI\\Chess\\Chess\\ChessUI\\PromotionMenu.xaml",
+              "RelativeToolTip": "ChessUI\\PromotionMenu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-28T10:47:57.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Queen.cs",
+              "DocumentMoniker": "D:\\facultate\\An3\\sem2\\Proiect AI\\Chess\\Chess\\ChessLogic\\Pieces\\Queen.cs",
+              "RelativeDocumentMoniker": "ChessLogic\\Pieces\\Queen.cs",
+              "ToolTip": "D:\\facultate\\An3\\sem2\\Proiect AI\\Chess\\Chess\\ChessLogic\\Pieces\\Queen.cs",
+              "RelativeToolTip": "ChessLogic\\Pieces\\Queen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T09:57:33.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Piece.cs",
+              "DocumentMoniker": "D:\\facultate\\An3\\sem2\\Proiect AI\\Chess\\Chess\\ChessLogic\\Pieces\\Piece.cs",
+              "RelativeDocumentMoniker": "ChessLogic\\Pieces\\Piece.cs",
+              "ToolTip": "D:\\facultate\\An3\\sem2\\Proiect AI\\Chess\\Chess\\ChessLogic\\Pieces\\Piece.cs",
+              "RelativeToolTip": "ChessLogic\\Pieces\\Piece.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T09:57:26.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Pawn.cs",
               "DocumentMoniker": "D:\\facultate\\An3\\sem2\\Proiect AI\\Chess\\Chess\\ChessLogic\\Pieces\\Pawn.cs",
               "RelativeDocumentMoniker": "ChessLogic\\Pieces\\Pawn.cs",
@@ -150,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "PawnPromotion.cs",
               "DocumentMoniker": "D:\\facultate\\An3\\sem2\\Proiect AI\\Chess\\Chess\\ChessLogic\\Moves\\PawnPromotion.cs",
               "RelativeDocumentMoniker": "ChessLogic\\Moves\\PawnPromotion.cs",
@@ -163,13 +163,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\facultate\\An3\\sem2\\Proiect AI\\Chess\\Chess\\ChessUI\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ChessUI\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\facultate\\An3\\sem2\\Proiect AI\\Chess\\Chess\\ChessUI\\MainWindow.xaml.cs",
-              "RelativeToolTip": "ChessUI\\MainWindow.xaml.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAowFkAAAA4AAAA",
+              "ToolTip": "D:\\facultate\\An3\\sem2\\Proiect AI\\Chess\\Chess\\ChessUI\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "ChessUI\\MainWindow.xaml.cs*",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAmwJ4AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T06:57:35.406Z",
               "EditorCaption": ""
