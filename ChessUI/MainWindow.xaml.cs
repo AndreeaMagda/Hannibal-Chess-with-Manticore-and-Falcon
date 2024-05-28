@@ -87,7 +87,7 @@ namespace ChessUI
 
         private Position ToSquarePosition(Point point)
         {
-            double squareSize = BoardGrid.ActualWidth / 11;
+           double squareSize = BoardGrid.ActualWidth /10;
            int row = (int)(point.Y / squareSize);
            int col = (int)(point.X / squareSize);
             return new Position(row, col);

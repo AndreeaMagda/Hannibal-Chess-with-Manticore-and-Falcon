@@ -54,7 +54,7 @@ namespace ChessLogic
             this[8, 8] = new Knight(Player.White);
             this[8, 9] = new Rook(Player.White);
 
-            for (int i = 0; i < 9; i++)
+            for (int i = 0; i <10; i++)
             {
                 this[1, i]=new Pawn(Player.Black);
                 this[7,i]=new Pawn(Player.White);
