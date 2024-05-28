@@ -5,8 +5,8 @@
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <SolidColorBrush x:Key="StrokeColor">#000000</SolidColorBrush>
-        <SolidColorBrush x:Key="FillColor">#F3CFD8</SolidColorBrush>
-        <SolidColorBrush x:Key="TextColor">#6600cc</SolidColorBrush>
+        <SolidColorBrush x:Key="FillColor" Opacity="0.5" Color="#F0fFD9"></SolidColorBrush>
+        <SolidColorBrush x:Key="TextColor">#FFFF</SolidColorBrush>
         <SolidColorBrush x:Key="ButtonColor">#CCCCFF</SolidColorBrush>
 
         <Style TargetType="Border" x:Key="BorderStyle">
@@ -37,6 +37,9 @@
                 </Style>
             </Style.Resources>
         </Style>
+
+        <!-- Updated SolidColorBrush with semitransparent color -->
+        <SolidColorBrush x:Key="SemiTransparentFillColor" Color="#F3CFD8" Opacity="0.5"/>
 
     </Application.Resources>
 </Application>

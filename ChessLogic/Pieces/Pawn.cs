@@ -20,8 +20,7 @@ namespace ChessLogic
             }
             else if (color == Player.Black) { 
             forward = Direction.South;
-            }     
-            
+            }               
         }
 
         public override Piece Copy()
