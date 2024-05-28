@@ -27,3 +27,4 @@ D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessUI\obj\Debug\net6.0-windows\Ga
 D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessUI\obj\Debug\net6.0-windows\App.baml
 D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessUI\obj\Debug\net6.0-windows\GameOverMenu.baml
 D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessUI\obj\Debug\net6.0-windows\PromotionMenu.g.cs
+D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessUI\obj\Debug\net6.0-windows\PromotionMenu.baml

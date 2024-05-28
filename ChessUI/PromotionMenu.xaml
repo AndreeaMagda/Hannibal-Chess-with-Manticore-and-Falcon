@@ -31,7 +31,7 @@
                        Source="Assets/wqueen.png"
                        />
                 <Image x:Name="RookImg"
-                       MouseDown="RookImg_MpuseDown"
+                       MouseDown="RookImg_MouseDown"
                        Source="Assets/wrook.png"
                        />
                 <Image x:Name="BishopImg"
@@ -39,7 +39,7 @@
                        Source="Assets/wbishop.png"
                        />
                 <Image x:Name="KnightImg"
-                       MouseDown="Img_MouseDown"
+                       MouseDown="KnightImg_MouseDown"
                        Source="Assets/wknight.png"
                        />
             </UniformGrid>
