@@ -5,8 +5,8 @@ D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessLogic\obj\Debug\net6.0\ChessLo
 D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessLogic\obj\Debug\net6.0\ChessLogic.AssemblyInfoInputs.cache
 D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessLogic\obj\Debug\net6.0\ChessLogic.AssemblyInfo.cs
 D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessLogic\obj\Debug\net6.0\ChessLogic.csproj.CoreCompileInputs.cache
+D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessLogic\obj\Debug\net6.0\ChessLogic.sourcelink.json
 D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessLogic\obj\Debug\net6.0\ChessLogic.dll
 D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessLogic\obj\Debug\net6.0\refint\ChessLogic.dll
 D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessLogic\obj\Debug\net6.0\ChessLogic.pdb
 D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessLogic\obj\Debug\net6.0\ref\ChessLogic.dll
-D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessLogic\obj\Debug\net6.0\ChessLogic.sourcelink.json

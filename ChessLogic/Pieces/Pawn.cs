@@ -59,7 +59,7 @@ namespace ChessLogic
 
             if(CanMoveTo(oneMovePos, board))
             {
-                if(oneMovePos.Row == 0 || oneMovePos.Row == 10)
+                if(oneMovePos.Row == 0 || oneMovePos.Row == 9)
                 {
                     foreach(Move promMove in PromotionMove(from, oneMovePos))
                     {
@@ -87,7 +87,7 @@ namespace ChessLogic
 
                 if(CanCapture(to, board))
                 {
-                    if (to.Row == 0 || to.Row == 10)
+                    if (to.Row == 0 || to.Row == 9)
                     {
                         foreach (Move promMove in PromotionMove(from, to))
                         {
