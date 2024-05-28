@@ -21,8 +21,8 @@ namespace ChessUI
     /// </summary>
     public partial class MainWindow : Window
     {
-        private readonly Image[,] pieceImages = new Image[11, 10];
-        private readonly Rectangle[,] highlights = new Rectangle[11, 10];
+        private readonly Image[,] pieceImages = new Image[11, 11];
+        private readonly Rectangle[,] highlights = new Rectangle[11, 11];
         private readonly Dictionary<Position,Move> moveCache = new Dictionary<Position, Move>();
 
         private GameState gameState;
@@ -87,7 +87,7 @@ namespace ChessUI
 
         private Position ToSquarePosition(Point point)
         {
-           double squareSize = BoardGrid.ActualWidth / 11;
+           double squareSize = BoardGrid.ActualWidth /11;
            int row = (int)(point.Y / squareSize);
            int col = (int)(point.X / squareSize);
             return new Position(row, col);
