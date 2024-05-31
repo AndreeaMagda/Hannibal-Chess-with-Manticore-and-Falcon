@@ -16,7 +16,9 @@ namespace ChessUI
             {PieceType.Bishop,LoadImage("Assets/wbishop.png")},
             {PieceType.Queen,LoadImage("Assets/wqueen.png")},
             {PieceType.King,LoadImage("Assets/wking.png")},
-            {PieceType.Knight,LoadImage("Assets/wknight.png")}
+            {PieceType.Knight,LoadImage("Assets/wknight.png")},
+            {PieceType.Falcon,LoadImage("Assets/wfalcon.png")},
+            {PieceType.Manticore,LoadImage("Assets/wmanticore.png")}
 
         };
 
@@ -28,7 +30,9 @@ namespace ChessUI
             {PieceType.Bishop,LoadImage("Assets/bbishop.png")},
             {PieceType.Queen,LoadImage("Assets/bqueen.png")},
             {PieceType.King,LoadImage("Assets/bking.png")},
-            {PieceType.Knight,LoadImage("Assets/bknight.png")}
+            {PieceType.Knight,LoadImage("Assets/bknight.png")},
+            {PieceType.Falcon,LoadImage("Assets/bfalcon.png")},
+            {PieceType.Manticore,LoadImage("Assets/bmanticore.png")}
 
         };
         private static ImageSource LoadImage(String filePath)

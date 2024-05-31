@@ -14,6 +14,8 @@ namespace ChessLogic
         Rook,
         King,
         Queen,
-        Elephant
+        Elephant,
+        Falcon,
+        Manticore
     }
 }

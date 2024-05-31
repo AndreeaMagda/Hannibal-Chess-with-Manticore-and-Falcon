@@ -31,6 +31,7 @@ namespace ChessLogic
 
         private void AddStartPieces()
         {
+            this[1,0]=new Manticore(Player.Black);
             this[0, 0] = new Rook(Player.Black);
             this[0, 1]= new Knight(Player.Black);
             this[0, 2]= new Elephant(Player.Black); 
@@ -41,8 +42,9 @@ namespace ChessLogic
             this[0, 7]=new Elephant(Player.Black);
             this[0, 8]=new Knight(Player.Black);
             this[0, 9]=new Rook(Player.Black);
+            this[1,9]=new Falcon(Player.Black);
 
-
+            this[7, 0] = new Manticore(Player.White);
             this[8, 0] = new Rook(Player.White);
             this[8, 1] = new Knight(Player.White);
             this[8, 2] = new Elephant(Player.White);
@@ -53,8 +55,9 @@ namespace ChessLogic
             this[8, 7] = new Elephant(Player.White);
             this[8, 8] = new Knight(Player.White);
             this[8, 9] = new Rook(Player.White);
+            this[7, 9] = new Falcon(Player.White);
 
-            for (int i = 0; i <10; i++)
+            for (int i = 1; i <9; i++)
             {
                 this[1, i]=new Pawn(Player.Black);
                 this[7,i]=new Pawn(Player.White);
