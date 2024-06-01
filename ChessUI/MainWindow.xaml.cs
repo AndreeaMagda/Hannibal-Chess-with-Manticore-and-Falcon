@@ -1,17 +1,11 @@
-﻿using ChessLogic;
-using System;
+﻿using ChessAI;
+using ChessLogic;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace ChessUI
@@ -24,9 +18,13 @@ namespace ChessUI
         private readonly Image[,] pieceImages = new Image[9, 10];
         private readonly Rectangle[,] highlights = new Rectangle[9, 10];
         private readonly Dictionary<Position,Move> moveCache = new Dictionary<Position, Move>();
+        private const int depth = 3; 
+
 
         private GameState gameState;
         private Position selectedPos=null;
+        private ClassAI ai= new ClassAI();
+
         public MainWindow()
         {
             InitializeComponent();
@@ -128,6 +126,14 @@ namespace ChessUI
             gameState.MakeMove(move);
             DrawBoard(gameState.Board);
             SetCursor(gameState.CurrentPlayer);
+
+            if (gameState.CurrentPlayer == Player.Black) // Assuming the AI plays as Black
+            {
+                var aiMove = ai.GetBestMove(gameState, depth); // Choose an appropriate depth
+                gameState.MakeMove(aiMove);
+                DrawBoard(gameState.Board);
+                SetCursor(gameState.CurrentPlayer);
+            }
 
             if (gameState.IsGameOver())
             {

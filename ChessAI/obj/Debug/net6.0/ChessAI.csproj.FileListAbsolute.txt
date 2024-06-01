@@ -1,0 +1,16 @@
+D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessAI\bin\Debug\net6.0\ChessAI.deps.json
+D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessAI\bin\Debug\net6.0\ChessAI.dll
+D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessAI\bin\Debug\net6.0\ChessAI.pdb
+D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessAI\bin\Debug\net6.0\ChessLogic.dll
+D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessAI\bin\Debug\net6.0\ChessLogic.pdb
+D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessAI\obj\Debug\net6.0\ChessAI.csproj.AssemblyReference.cache
+D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessAI\obj\Debug\net6.0\ChessAI.GeneratedMSBuildEditorConfig.editorconfig
+D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessAI\obj\Debug\net6.0\ChessAI.AssemblyInfoInputs.cache
+D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessAI\obj\Debug\net6.0\ChessAI.AssemblyInfo.cs
+D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessAI\obj\Debug\net6.0\ChessAI.csproj.CoreCompileInputs.cache
+D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessAI\obj\Debug\net6.0\ChessAI.sourcelink.json
+D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessAI\obj\Debug\net6.0\ChessAI.csproj.Up2Date
+D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessAI\obj\Debug\net6.0\ChessAI.dll
+D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessAI\obj\Debug\net6.0\refint\ChessAI.dll
+D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessAI\obj\Debug\net6.0\ChessAI.pdb
+D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessAI\obj\Debug\net6.0\ref\ChessAI.dll

@@ -28,3 +28,5 @@ D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessUI\obj\Debug\net6.0-windows\re
 D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessUI\obj\Debug\net6.0-windows\ChessUI.pdb
 D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessUI\obj\Debug\net6.0-windows\ChessUI.genruntimeconfig.cache
 D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessUI\obj\Debug\net6.0-windows\ref\ChessUI.dll
+D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessUI\bin\Debug\net6.0-windows\ChessAI.dll
+D:\facultate\An3\sem2\Proiect AI\Chess\Chess\ChessUI\bin\Debug\net6.0-windows\ChessAI.pdb
