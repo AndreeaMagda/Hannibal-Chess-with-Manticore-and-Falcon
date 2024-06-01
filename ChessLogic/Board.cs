@@ -11,6 +11,8 @@ namespace ChessLogic
     {
         private readonly Piece[,] pieces = new Piece[9, 11];
 
+        public IEnumerable<object> Piece { get; set; }
+
         public Piece this[int row, int col]
         {
             get { return pieces[row, col]; }

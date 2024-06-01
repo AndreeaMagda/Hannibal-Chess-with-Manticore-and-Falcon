@@ -66,5 +66,16 @@ namespace ChessLogic
         {
             return Result != null;
         }
+
+
+        public GameState Clone()
+        {
+            var boardCopy = this.Board.Copy(); // Use your Board copy method here
+            var clone = new GameState(this.CurrentPlayer, boardCopy);
+            // Copy other GameState properties as needed
+            // ...
+            return clone;
+        }
+
     }
 }
