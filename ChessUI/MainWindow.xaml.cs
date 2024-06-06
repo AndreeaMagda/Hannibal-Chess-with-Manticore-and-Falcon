@@ -85,9 +85,12 @@ namespace ChessUI
 
         private Position ToSquarePosition(Point point)
         {
-           double squareSize = BoardGrid.ActualWidth /11;
-           int row = (int)(point.Y / squareSize);
-           int col = (int)(point.X / squareSize);
+            double squareWidth = BoardGrid.ActualWidth / 10; // Adjusted from 11 to 10
+            double squareHeight = BoardGrid.ActualHeight / 9; // Added this line to account for the height of the squares
+
+            int row = (int)(point.Y / squareHeight); // Adjusted to use squareHeight
+            int col = (int)(point.X / squareWidth); // Adjusted to use squareWidth
+
             return new Position(row, col);
         }  
         
@@ -127,9 +130,9 @@ namespace ChessUI
             DrawBoard(gameState.Board);
             SetCursor(gameState.CurrentPlayer);
 
-            if (gameState.CurrentPlayer == Player.Black) // Assuming the AI plays as Black
+            if (gameState.CurrentPlayer == Player.Black) 
             {
-                var aiMove = ai.GetBestMove(gameState, depth); // Choose an appropriate depth
+                var aiMove = ai.GetBestMove(gameState, depth); 
                 gameState.MakeMove(aiMove);
                 DrawBoard(gameState.Board);
                 SetCursor(gameState.CurrentPlayer);

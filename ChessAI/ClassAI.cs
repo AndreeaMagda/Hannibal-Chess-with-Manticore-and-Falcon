@@ -83,12 +83,12 @@ namespace ChessAI
                 case PieceType.King:
                     return 0;
                 case PieceType.Falcon:
-                    return 7; // Assign a value for the Falcon piece type
+                    return 7; 
                 case PieceType.Manticore:
-                    return 6; // Assign a value for the Manticore piece type
+                    return 6; 
 
                 case PieceType.Elephant:
-                    return 4; // Assign a value for the Elephant piece type
+                    return 4; 
 
                 default:
                     throw new Exception("Unknown piece type: " + piece.Type);
